@@ -1,0 +1,17 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(black 0%, gray 25%, black 75%, gray 100%);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.list-cell { /* <=== changed to even */
+    -fx-background-color: white;
+    -fx-font-size: 12;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: linear-gradient(black 0%, gray 25%, black 75%, gray 100%);
+    -fx-text-fill: white;
+}
